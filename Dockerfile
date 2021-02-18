@@ -2,6 +2,7 @@ FROM alpine:3.13
 
 # This hack is widely applied to avoid python printing issues in docker containers.
 # See: https://github.com/Docker-Hub-frolvlad/docker-alpine-python3/pull/13
+# This is me attempting an auto build
 ENV PYTHONUNBUFFERED=1
 
 RUN echo "**** install Python ****" && \
